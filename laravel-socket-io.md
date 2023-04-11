@@ -3,6 +3,20 @@
 - Composer [here](https://getcomposer.org/download/)
 - npm `sudo apt install nodejs npm`
 - laravel-echo-server `npm install -g laravel-echo-server`
+- then answer a few questions, and answer as below
+    - Do you want to run this server in development mode? Yes
+    - Which port would you like to serve from? 6001
+    - Which database would you like to use to store presence channel members? redis
+    - Enter the host of your Laravel authentication server. http://localhost
+    - Will you be serving on http or https? https
+    - (after that you will be asked to enter the patch where your SSL certificate file and SSL server key file are stored)
+    - Do you want to generate a client ID/Key for HTTP API? Yes
+    - Do you want to setup cross domain access to the API? Yes
+    - Specify the URI that may access the API: http://localhost:80
+    - Enter the HTTP methods that are allowed for CORS: GET, POST
+    - Enter the HTTP headers that are allowed for CORS: Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id
+    - What do you want this config to be saved as? laravel-echo-server.json
+    
 
 # Laravel Dependencies Requirement
 - predis
