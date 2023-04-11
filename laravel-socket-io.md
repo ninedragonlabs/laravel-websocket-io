@@ -4,8 +4,8 @@
 - npm `sudo apt install nodejs npm`
 - laravel-echo-server `npm install -g laravel-echo-server`
 - then answer a few questions, and answer as below
-    - Do you want to run this server in development mode? Yes
-    - Which port would you like to serve from? 6001
+    - Do you want to run this server in development mode? `Yes`
+    - Which port would you like to serve from? `6001`
     - Which database would you like to use to store presence channel members? redis
     - Enter the host of your Laravel authentication server. http://localhost
     - Will you be serving on http or https? https
